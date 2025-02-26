@@ -25,4 +25,8 @@ fun map() {
     )
 
     println(countryCapitals["Italy"])
+
+    println(countryCapitals.keys)
+
+    
 }
