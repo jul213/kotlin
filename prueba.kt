@@ -32,6 +32,11 @@ fun map() {
 
 
     val countryMutable = mutableMapOf(
-        
+
+        "coche" to 20,
+        "avion" to 100,
     )
+
+
+    
 }
