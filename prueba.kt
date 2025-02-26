@@ -37,6 +37,7 @@ fun map() {
         "avion" to 100,
     )
 
-
+    countryMutable["coche"] = 50
     
+
 }
