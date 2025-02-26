@@ -38,6 +38,9 @@ fun map() {
     )
 
     countryMutable["coche"] = 50
-    
+
+
+    countryMutable.remove("avion")
+
 
 }
