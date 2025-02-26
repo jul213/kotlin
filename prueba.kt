@@ -13,3 +13,9 @@ fun main(){
     println(mutableUnique)
     println(mutableUnique.size)
 }
+
+
+fun map() {
+
+    
+}
