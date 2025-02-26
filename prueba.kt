@@ -43,4 +43,7 @@ fun map() {
     countryMutable.remove("avion")
 
 
+    countryMutable["helicoptero"] = 80
+
+
 }
