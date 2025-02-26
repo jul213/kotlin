@@ -8,4 +8,5 @@ fun main(){
     val mutableUnique = mutableSetOf("apple")
 
     mutableUnique.add("banana")
+    mutableUnique.add("pera")
 }
