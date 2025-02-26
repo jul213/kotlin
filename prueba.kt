@@ -9,4 +9,6 @@ fun main(){
 
     mutableUnique.add("banana")
     mutableUnique.add("pera")
+
+    println(mutableUnique)
 }
