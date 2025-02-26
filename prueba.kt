@@ -23,4 +23,6 @@ fun map() {
         "Italy" to "Rome"
 
     )
+
+    println(countryCapitals["Italy"])
 }
