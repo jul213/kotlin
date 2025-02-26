@@ -17,5 +17,8 @@ fun main(){
 
 fun map() {
 
-    
+    val countryCapitals = mapOf(
+        "France" to "paris"
+        
+    )
 }
