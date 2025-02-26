@@ -11,4 +11,5 @@ fun main(){
     mutableUnique.add("pera")
 
     println(mutableUnique)
+    println(mutableUnique.size)
 }
