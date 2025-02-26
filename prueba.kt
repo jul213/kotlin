@@ -29,4 +29,9 @@ fun map() {
     println(countryCapitals.keys)
 
     println(countryCapitals.values)
+
+
+    val countryMutable = mutableMapOf(
+        
+    )
 }
