@@ -53,4 +53,6 @@ fun filtrado(set: Set<String>){
     val filtrados = set.filter{
         it == nombre
     }
+
+    println(filtrados)
 }
