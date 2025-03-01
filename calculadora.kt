@@ -33,5 +33,6 @@ fun main(){
         2 ->  println(resta(num1,num2))
         3 ->  println(multiplicacion(num1,num2))
         4 ->  println(division(num1,num2))
+        else -> println("operacion no encontrada")
     }
     }
