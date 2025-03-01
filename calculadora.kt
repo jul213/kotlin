@@ -19,5 +19,7 @@ fun main(){
     println("bienvenido al sistema de calculadora con Kotlin")
 
     println("escriba el primer numero: ")
+    val num1 = readln().toInt()
     println("escriba el segundo numero: ")
-}
+    val num2 = readln().toInt()
+    }
