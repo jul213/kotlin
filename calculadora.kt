@@ -30,5 +30,8 @@ fun main(){
     when (operacion){
 
         1 ->  println(suma(num1,num2))
+        2 ->  println(resta(num1,num2))
+        3 ->  println(multiplicacion(num1,num2))
+        4 ->  println(division(num1,num2))
     }
     }
