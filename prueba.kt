@@ -47,3 +47,5 @@ fun map() {
 
 
 }
+
+fun filtrado(set: Set<string>)
