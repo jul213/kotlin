@@ -22,4 +22,13 @@ fun main(){
     val num1 = readln().toInt()
     println("escriba el segundo numero: ")
     val num2 = readln().toInt()
+
+    println("seleccione operacion 1-suma 2-resta 3-multiplicacion 4-division")
+    val operacion = readln().toInt()
+
+
+    when (operacion){
+
+        1 ->  println(suma(num1,num2))
+    }
     }
