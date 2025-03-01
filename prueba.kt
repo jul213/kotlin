@@ -48,4 +48,9 @@ fun map() {
 
 }
 
-fun filtrado(set: Set<string>)
+fun filtrado(set: Set<String>){
+    val nombre = "carlos"
+    val filtrados = set.filter{
+        it == nombre
+    }
+}
