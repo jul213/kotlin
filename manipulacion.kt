@@ -1,9 +1,9 @@
 
-fun manipulacion(lista: List<String>){
+fun manipulacion(lista: List<String>): List<String>{
 
-    lista.map{
-        it == "buenas"
+    val mapeado = lista.map{
+        it + "buenas"
     }
 
-    return lista
+    return mapeado
 }
