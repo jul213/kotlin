@@ -9,5 +9,5 @@ fun main(){
 
     val myBook = book()
     myBook.title = "kotlin programming"
-
+    myBook.author = "alex"
 }
