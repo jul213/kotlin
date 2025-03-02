@@ -6,5 +6,7 @@ class book {
 }
 
 fun main(){
+
+    val myBook = book()
     
 }
