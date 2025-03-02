@@ -11,4 +11,7 @@ fun main(){
     myBook.title = "kotlin programming"
     myBook.author = "alex"
     myBook.pages = 50
+
+
+    println(myBook.title)
 }
