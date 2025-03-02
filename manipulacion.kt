@@ -10,5 +10,8 @@ fun manipulacion(lista: List<String>): List<String>{
 
 
 fun main(){
+
+    val saludo = listOf("dias", "tardes", "noches", "nuevas")
+
     
 }
