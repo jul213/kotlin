@@ -4,3 +4,7 @@ class book {
     var author: String = ""
     var pages: Int = 0
 }
+
+fun main(){
+    
+}
