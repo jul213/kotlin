@@ -7,3 +7,8 @@ fun manipulacion(lista: List<String>): List<String>{
 
     return mapeado
 }
+
+
+fun main(){
+    
+}
