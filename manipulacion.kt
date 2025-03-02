@@ -15,5 +15,5 @@ fun main(){
 
     val res = manipulacion(saludo)
 
-    
+    println(res)
 }
