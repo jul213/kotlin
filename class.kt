@@ -8,5 +8,6 @@ class book {
 fun main(){
 
     val myBook = book()
-    
+    myBook.title = "kotlin programming"
+
 }
