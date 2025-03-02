@@ -13,5 +13,7 @@ fun main(){
 
     val saludo = listOf("dias", "tardes", "noches", "nuevas")
 
+    val res = manipulacion(saludo)
+
     
 }
