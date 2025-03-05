@@ -29,3 +29,8 @@ class Person {
         edad = value + 2
     }
 }
+
+
+class Car {
+    
+}
