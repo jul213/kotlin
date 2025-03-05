@@ -31,13 +31,13 @@ class Person {
 }
 
 
-class Car {
+class Car ( var modelo: String
+    var marca: String ){
 
-    var modelo: String
-    var marca: String 
+   
 
     init {
-        require(modelo && marca != null){
+        require(modelo.isNotEmpty() && marca.isNotEmpty()){
             "correcto"
         }
         println("tu coche tiene este mmodelo: $modelo y esta marca: $marca")
