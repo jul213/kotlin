@@ -32,5 +32,14 @@ class Person {
 
 
 class Car {
-    
+
+    var modelo: String
+    var marca: String 
+
+    init {
+        require(modelo && marca != null){
+            "correcto"
+        }
+        println("tu coche tiene este mmodelo: $modelo y esta marca: $marca")
+    }
 }
