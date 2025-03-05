@@ -18,5 +18,14 @@ fun main(){
 
 
 class Carro {
-    
+
+    var edad: Int = 0
+
+    private set 
+
+    set(value){
+
+        field = value 
+        edad = value + 2
+    }
 }
