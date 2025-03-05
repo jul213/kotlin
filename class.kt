@@ -17,7 +17,7 @@ fun main(){
 }
 
 
-class Carro {
+class Person {
 
     var edad: Int = 0
 
