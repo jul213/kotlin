@@ -11,3 +11,8 @@ class Dog : Animal(){
         println("$name says: WOOF")
     }
 }
+
+
+fun main(){
+    
+}
