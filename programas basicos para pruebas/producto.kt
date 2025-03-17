@@ -20,5 +20,5 @@ class Cart {
 
 
 fun main(){
-    
+    val cart = Cart()
 }
