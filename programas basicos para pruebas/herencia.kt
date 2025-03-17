@@ -7,5 +7,7 @@ open class Animal{
 }
 
 class Dog : Animal(){
-    
+    fun bark(){
+        println("$name says: WOOF")
+    }
 }
