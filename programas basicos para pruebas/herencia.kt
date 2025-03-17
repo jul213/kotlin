@@ -17,4 +17,6 @@ fun main(){
     val dog = Dog()
     dog.name = "Rex"
     dog.eat()
+
+    dog.bark()
 }
