@@ -17,3 +17,8 @@ class Cart {
         return items.values.sum()
     }
 }
+
+
+fun main(){
+    
+}
