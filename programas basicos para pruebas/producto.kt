@@ -24,4 +24,5 @@ fun main(){
     val laptop = Product("1","Laptop", 230.20)
 
     cart.addItem(laptop,20)
+    println("Items in cart: ${cart}.getItem()")
 }
