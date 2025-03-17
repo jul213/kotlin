@@ -11,4 +11,9 @@ class Cart {
     fun addItem(product: Product, quantity: Int = 1){
         items[product] = (items[product] ?: 0) + quantity
     }
+
+
+    fun getItem(): Int {
+        return items.values.sum()
+    }
 }
