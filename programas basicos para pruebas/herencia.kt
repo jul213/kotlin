@@ -14,5 +14,7 @@ class Dog : Animal(){
 
 
 fun main(){
+    val dog = Dog()
+    dog.name = "Rex"
     
 }
