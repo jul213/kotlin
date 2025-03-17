@@ -22,4 +22,6 @@ class Cart {
 fun main(){
     val cart = Cart()
     val laptop = Product("1","Laptop", 230.20)
+
+    cart.addItem(laptop,20)
 }
