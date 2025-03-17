@@ -5,3 +5,7 @@ open class Animal{
         println("$name is eating")
     }
 }
+
+class Dog : Animal(){
+    
+}
