@@ -26,4 +26,8 @@ class Circle(private val radius: Double): Shape(), Drawable, Movable {
     override fun calculateArea(): Double {
         return Math.PI * radius * radius
     }
+
+    override fun draw(){
+        println("drawing circle with radius: $radius")
+    }
 }
