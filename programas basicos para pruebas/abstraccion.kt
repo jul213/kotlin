@@ -21,3 +21,7 @@ class Button(private val text: String): Drawable, Movable {
         println("moving button to ($x,$y)")
     }
 }
+
+class Circle(private val radius: Double): Shape(), Drawable, Movable {
+    
+}
