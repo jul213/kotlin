@@ -16,4 +16,8 @@ class Button(private val text: String): Drawable, Movable {
     override fun draw(){
         println("drawing button with text: $text")
     }
+
+    override fun move(x: Int, y: Int){
+        println("moving button to ($x,$y)")
+    }
 }
