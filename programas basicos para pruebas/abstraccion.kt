@@ -13,5 +13,7 @@ abstract class Shape {
 }
 
 class Button(private val text: String): Drawable, Movable {
-    
+    override fun draw(){
+        println("drawing button with text: $text")
+    }
 }
