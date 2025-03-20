@@ -6,6 +6,9 @@ data class Contact (
     val description: String
 )
 
+data class Client  (
+    
+)
 
 fun main(){
 
