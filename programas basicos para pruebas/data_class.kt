@@ -9,8 +9,8 @@ data class Contact (
 data class Client  (
 
     val name: String,
-    val age: Int,
-    val Email: String,
+    val age: Int = 20,
+    val Email: String = "$name@gmail.com",
     val tel: String
 )
 
