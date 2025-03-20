@@ -11,3 +11,7 @@ interface Drawable {
 abstract class Shape {
     abstract fun calculateArea(): Double
 }
+
+class Button(private val text: String): Drawable, Movable {
+    
+}
