@@ -30,4 +30,10 @@ class Circle(private val radius: Double): Shape(), Drawable, Movable {
     override fun draw(){
         println("drawing circle with radius: $radius")
     }
+
+    override fun move(x: Int, y: Int){
+        println(
+            "Moving circle to ($x,$y)"
+        )
+    }
 }
