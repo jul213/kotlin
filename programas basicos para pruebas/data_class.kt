@@ -7,7 +7,11 @@ data class Contact (
 )
 
 data class Client  (
-    
+
+    val name: String,
+    val age: Int,
+    val Email: String,
+    val tel: String
 )
 
 fun main(){
