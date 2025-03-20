@@ -6,3 +6,8 @@ interface Movable {
 interface Drawable {
     fun draw()
 }
+
+
+abstract class Shape {
+    abstract fun calculateArea(): Double
+}
